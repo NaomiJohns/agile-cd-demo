@@ -105,9 +105,23 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         background-color: #eeeeee;
       }
     </style>
+
+<script src="https://www.gstatic.com/firebasejs/3.6.8/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDQPmFUj1bmfUb7JYpdKxGfxvOH2-voesE",
+    authDomain: "pwa-app-7c81e.firebaseapp.com",
+    databaseURL: "https://pwa-app-7c81e.firebaseio.com",
+    storageBucket: "pwa-app-7c81e.appspot.com",
+    messagingSenderId: "70241953057"
+  };
+  firebase.initializeApp(config);
+</script>
   </head>
   <body>
     <my-app></my-app>
     <!-- Built with love using Polymer Starter Kit -->
   </body>
 </html>
+
